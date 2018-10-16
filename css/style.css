@@ -12,12 +12,13 @@ header {
 }
 
 .logo {
-  width: 90px;
+  width: 70px;
   margin-left: 50px;
 }
 
 .nav {
   margin-top: 50px;
+  margin-bottom: 5px;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -63,12 +64,14 @@ header {
 
 .thumbnail img {
   height: 320px;
+  /*width: 230px;*/
   padding-top: 15px;
+  padding: 10px;
   border-radius: 15%;
 }
 
 .thumbnail img:hover {
-  transform: scale(1.4);
+  transform: scale(1.54);
 }
 
 h4 {
